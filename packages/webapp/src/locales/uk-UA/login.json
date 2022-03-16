@@ -1,0 +1,28 @@
+{
+  "pageTitle": "Resolve - інструмент для підтримки здоров’я громади",
+  "_pageTitle.comment": "Page title displayed in the browser tab. {Placeholder = Resolve, a community health resilience tool}",
+  "header": "Ласкаво просимо до Resolve, інструменту для підтримки здоров’я громади",
+  "_header.comment": "Header welcome text. {Placeholder = Resolve, a community health resilience tool}",
+  "subHeader": "Resolve підтримує важливу роботу громадських організацій за допомогою легкого керування клієнтами, відстеження сервісів та звітності.",
+  "_subHeader.comment": "Subheader welcome text. {Placeholder = Resolve}",
+  "login": {
+    "agreement": "Я погоджуюся, що якщо я буду використовувати цю форму, я ,буду дотримуватися місцевих правил і найкращих методів захисту даних і конфіденційності, включаючи, але не обмежуючись, HIPAA і FERPA. Я також підтверджую, що мене навчили збирати ці дані та я підписав/ла «Умови надання послуг» моєї організації для використання цієї форми",
+    "_agreement.comment": "Acknoledgement that all users must check before loging into the the app",
+    "title": "Вхід",
+    "_title.comment": "Login title",
+    "loginText": "Будь ласка, увійдіть, щоб продовжити",
+    "_loginText.comment": "Login subtext",
+    "emailText": "Електронна пошта",
+    "_emailText.comment": "Login email placeholder",
+    "passwordText": "Пароль",
+    "_passwordText.comment": "Login password placeholder",
+    "forgotPasswordText": "Забули свій пароль?",
+    "_forgotPasswordText.comment": "Forgot password subtext",
+    "emailPlaceholder": "Введіть електронну пошту",
+    "_emailPlaceholder.comment": "Placeholder text for email",
+    "passwordPlaceholder": "Введіть пароль",
+    "_passwordPlaceholder.comment": "Placeholder text for password",
+    "invalidLogin": "Невірна адреса електронної пошти або пароль. Будь ласка спробуйте ще раз.",
+    "_invalidLogin.comment": "Invalid text for failed login"
+  }
+}

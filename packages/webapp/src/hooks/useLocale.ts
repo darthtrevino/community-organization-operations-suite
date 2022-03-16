@@ -10,17 +10,19 @@ const logger = createLogger('useLocale')
 
 const localeState = atom({
 	key: 'locale',
-	default: 'en-US'
+	default: 'uk-UA'
 })
 
-export const LOCALES = ['en-US', 'es-US']
-export const DEFAULT_LOCALE = 'en-US'
+export const LOCALES = ['en-US', 'es-US', 'uk-UA']
+export const DEFAULT_LOCALE = 'uk-UA'
 
 function getLocale(language: string) {
 	if (language.startsWith('en-') || language === 'en') {
 		return 'en-US'
 	} else if (language.startsWith('es-') || language === 'es') {
 		return 'es-US'
+	} else if (language.startsWith('uk-') || language === 'uk') {
+		return 'uk-UA'
 	}
 	return DEFAULT_LOCALE
 }

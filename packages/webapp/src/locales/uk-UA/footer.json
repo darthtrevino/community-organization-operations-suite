@@ -1,0 +1,16 @@
+{
+  "sendFeedbackTitle": "Надішліть нам відгук!",
+  "_sendFeedbackTitle.comment": "Назва для Надішліть нам відгук посилання на електронну пошту",
+  "footerBar": {
+    "privacyAndCookies": "Конфіденційність та файли cookies",
+    "_privacyAndCookies.comment": "Текст нижнього колонтитула для Конфіденційність та файли сookies",
+    "trademarks": "Торгові марки",
+    "_trademarks.comment": "Текст нижнього колонтитула для Торгові марки",
+    "contactUs": "Зв'яжіться з нами",
+    "_contactUs.comment": "Текст нижнього колонтитула для Зв'яжіться з нами",
+    "codeOfConduct": "Кодекс поведінки",
+    "_codeOfConduct.comment": "Текст нижнього колонтитула для Кодекс поведінки",
+    "termsOfUse": "Умови використання",
+    "_termsOfUse.comment": "Текст нижнього колонтитула для Умови використання"
+  }
+}

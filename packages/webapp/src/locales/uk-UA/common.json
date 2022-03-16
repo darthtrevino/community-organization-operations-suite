@@ -1,0 +1,280 @@
+{
+  "app": {
+    "title": "Resolve",
+    "_title.comment": "Title of the app displayed in action bar before the org name loads. {Placeholder = Resolve}",
+    "head": {
+      "title": "Resolve",
+      "_title.comment": "Title of the app displayed in web title bar. {Placeholder = Resolve}",
+      "subTitle": "Інструмент для підтримки здоров'я громади",
+      "_subTitle.comment": "Default sub title of the app displayed in web title bar. {Placeholder = Community Health Resilience Tool}"
+    }
+  },
+  "mainNavigation": {
+    "requestsText": "Інформаційна панель",
+    "_requestsText.comment": "Top navigation item for Dashboard page",
+    "servicesText": "Сервіси",
+    "_servicesText.comment": "Top navigation item for Services page",
+    "specialistsText": "Фахівці",
+    "_specialistsText.comment": "Top navigation item for Specialists page",
+    "clientsText": "Клієнти",
+    "_clientsText.comment": "Top navigation item for Clients page",
+    "tagsText": "Теги",
+    "_tagsText.comment": "Top navigation item for Tags page",
+    "reportingText": "Звітування",
+    "_reportingText.comment": "Top navigation item for Reporting page"
+  },
+  "personaTitle": "Привіт, [[firstName]]",
+  "_personaTitle.comment": "Hello string to greet logged-in user. {Placeholder = [,firstName,]}",
+  "personaMenu": {
+    "accountText": "Акаунт",
+    "_accountText.comment": "Persona menu navigation item for Account page",
+    "logoutText": "Вийти",
+    "_logoutText.comment": "Persona menu navigation item for Logout user action"
+  },
+  "mobileMenu": {
+    "homePageLabel": "Інформаційна панель",
+    "_homePageLabel.comment": "Label to home page in mobile nav",
+    "servicesLabel": "Сервіси",
+    "_servicesLabel.comment": "Label to services page in mobile nav",
+    "specialistPageLabel": "Фахівці",
+    "_specialistPageLabel.comment": "Label to specialsits page in mobile nav",
+    "clientsPageLabel": "Клієнти",
+    "_clientsPageLabel.comment": "Label to clients page in mobile nav",
+    "tagsPageLabel": "Теги",
+    "_tagsPageLabel.comment": "Label to tags page in mobile nav",
+    "reportingPageLabel": "Звітування",
+    "_reportingPageLabel.comment": "Label to reporting page in mobile nav"
+  },
+  "notificationRowText": "[[sender]] згадав Вас у запиті стосовно [[description]].",
+  "_notificationRowText.comment": "Notification row content message for mention with sender and description of the request. Do not translate [[sender]], [[description]]. {Placeholder=[,]}",
+  "notificationRowDefaultText": "Вас згадали у запиті. Натисніть тут щоб подивитись.",
+  "_notificationRowDefaultText.comment": "Default notification a user sees if they were mentioned in a request.",
+  "notificationTitle": "Сповіщення",
+  "_notificationTitle.comment": "Notification title displayed in the opening panel",
+  "notificationButtons": {
+    "markAllAsReadText": "Відмітити все як прочитане",
+    "_markAllAsReadText.comment": "Button text for marking all notifications as read",
+    "dismissAllText": "Прибрати все",
+    "_dismissAllText.comment": "Button text for dismiss all notifications"
+  },
+  "noNotificationText": "У вас нема сповіщень",
+  "_noNotificationText.comment": "Text displayed in the notification panel when a user have no notifications",
+  "paginatedList": {
+    "search": "Шукати",
+    "_search.comment": "Search text placeholder",
+    "filter": "Фільтр",
+    "_filter.comment": "filter text placeholder",
+    "noResults": "Результатів не знайдено.",
+    "_noResults.comment": "No results text in list",
+    "loading": "Завантажується...",
+    "_loading.comment": "Loading text to display"
+  },
+  "actionInput": {
+    "textareaPlaceholder": "Введіть текст тут...",
+    "_textareaPlaceholder.comment": "Placeholder text for textare field",
+    "submit": "Надіслати",
+    "_submit.comment": "Submit button text"
+  },
+  "panelActions": {
+    "closeAriaLabel": "Закрити",
+    "_closeAriaLabel.comment": "Close button aria label",
+    "loading": "Завантажується...",
+    "_loading.comment": "Loading text to display"
+  },
+  "formElements": {
+    "datePickerAriaLabel": "Виберіть дату",
+    "_datePickerAriaLabel.comment": "Default aria label for date picker components"
+  },
+  "languageDropdownAriaLabel": "Список мов: використовуйте стрілки для вибору мови, якщо застосовуєте навігацію табами",
+  "_languageDropdownAriaLabel.comment": "Aria label for language select dropdown in action bar on top of the page",
+  "shortString": {
+    "more": "...більше",
+    "_more.comment": "Show more label for long text",
+    "less": "...менше",
+    "_less.comment": "Show less label for long text"
+  },
+  "complianceWarning": {
+    "title": "Попередження про відповідність",
+    "_title.comment": "Compliance warning title",
+    "body": "Цей додаток працює в тестовому режимі. НЕ публікуйте справжніх клієнтів або конфіденційну інформацію в цьому додатку в даний момент.",
+    "_body.comment": "Compliance warning description",
+    "closeAriaLabel": "Закрити",
+    "_closeAriaLabel.comment": "Close button aria label"
+  },
+  "errors": {
+    "unauthenticated": "Адреса електронної пошти чи пароль невірні. Спробуйте ще раз.",
+    "_unauthenticated.comment": "Invalid authentication token message"
+  },
+  "utils": {
+    "getTimeDuration": {
+      "hours": "год.",
+      "_hours.comment": "Abbreviated time duration unit for Hours",
+      "minutes": "хв.",
+      "_minutes.comment": "Abbreviated time duration unit for Minutes",
+      "seconds": "сек.",
+      "_seconds.comment": "Abbreviated time duration unit for Seconds",
+      "days": "днів",
+      "_days.comment": "Time duration unit for Days",
+      "overdue": "прострочений",
+      "_overdue.comment": "Time duration unit for Overdue"
+    }
+  },
+  "notFound": {
+    "title": "Сторінка не знайдена",
+    "_title.comment": "Title for page",
+    "subtitle": "Сторінку, яку ви намагаєтесь відкрити, неможливо знайти, або вона недосяжна.",
+    "_subtitle.comment": "Page subtitle message",
+    "goBackToMain": "Назад на головну сторінку",
+    "_goBackToMain.comment": "Clickable text link"
+  },
+  "hooks": {
+    "useAuth": {
+      "loginFailed": "Невдалий вхід",
+      "_loginFailed.comment": "Login failed message",
+      "resetSuccess": "Лист для скидання паролю надісланий",
+      "_resetSuccess.comment": "Password reset success message",
+      "resetFailed": "Не вдалося надіслати листа для скидання паролю",
+      "_resetFailed.comment": "Password reset failed message"
+    },
+    "useEngagement": {
+      "loadDataFailed": "Не вдалося завантажити дані",
+      "_loadDataFailed.comment": "Load data failed message",
+      "assignSuccess": "Запит на призначення успішний",
+      "_assignSuccess.comment": "Assign request success message",
+      "assignFailed": "Не вдалося призначити запит",
+      "_assignFailed.comment": "Assign request failed message",
+      "addActionFailed": "Не вийшло додати запит",
+      "_addActionFailed.comment": "Add action failed message",
+      "setStatusSuccess": "Встановити статус запита як [[status]]",
+      "_setStatusSuccess.comment": "[[status]] to NOT be translated. Set request status success message. ",
+      "setStatusFailed": "Не вийшло встановити статус запита",
+      "_setStatusFailed.comment": "Set request status failed message",
+      "completeSuccess": "Запит завершено",
+      "_completeSuccess.comment": "Request complete success message",
+      "completeFailed": "Не вийшло завершити запит",
+      "_completeFailed.comment": "Complete request failed message"
+    },
+    "useEngagementList": {
+      "loadDataFailed": "Неможливо завантажити дані",
+      "_loadDataFailed.comment": "Load data failed message",
+      "removeFailed": "Не вдалося помітити як завершений",
+      "_removeFailed.comment": "Mark complete failed message",
+      "addEngagement": {
+        "success": "Запит створено",
+        "_success.comment": "Request created success message",
+        "failed": "Неможливо створити запит",
+        "_failed.comment": "Request create failed message"
+      },
+      "editEngagement": {
+        "success": "Запит змінено",
+        "_success.comment": "Request edited success message",
+        "failed": "Запит не вдалося змінити",
+        "_failed.comment": "Error editing request failed message"
+      },
+      "claimEngagement": {
+        "success": "Запит заявлено",
+        "_success.comment": "Request claimed success message",
+        "failed": "Не вдалося заявити запит",
+        "_failed.comment": "Error claiming request failed message"
+      }
+    },
+    "useInactiveEngagementList": {
+      "loadDataFailed": "Помилка при завантажені даних",
+      "_loadDataFailed.comment": "Load data failed message"
+    },
+    "useOrganization": {
+      "loadDataFailed": "Помилка при завантажені даних",
+      "_loadDataFailed.comment": "Load data failed message"
+    },
+    "useProfile": {
+      "setPassword": {
+        "success": "Пароль встановлено",
+        "_success.comment": "Password set success message",
+        "failed": "Не вдалося встановити новий пароль",
+        "_failed.comment": "Password set failed message"
+      }
+    },
+    "useReports": {
+      "loadDataFailed": "Помилка при завантажені даних",
+      "_loadDataFailed.comment": "Load data failed message"
+    },
+    "useServicelist": {
+      "loadDataFailed": "Помилка при завантажені даних",
+      "_loadDataFailed.comment": "Load data failed message",
+      "createServiceSuccess": "Сервіс створено",
+      "_createServiceSuccess.comment": "Service created success message",
+      "createServiceFailed": "Не вдалося створити сервіс",
+      "_createServiceFailed.comment": "Service create failed message",
+      "updateServiceSuccess": "Сервіс оновлено",
+      "_updateServiceSuccess.comment": "Service update success message",
+      "updateServiceFailed": "Не вдалося оновити сервіс",
+      "_updateServiceFailed.comment": "Service update failed message",
+      "createAnswerSuccess": "Форма відправлена успішно",
+      "_createAnswerSuccess.comment": "Form submitted successfully message",
+      "createAnswerFailed": "Не вдалося відправити форму",
+      "_createAnswerFailed.comment": "Failed to submit form message",
+      "deleteAnswerSuccess": "Запис сервіса успішно видалено",
+      "_deleteAnswerSuccess.comment": "Deleted successfully message",
+      "deleteAnswerFailed": "Не вдалося видалити запис сервіса",
+      "_deleteAnswerFailed.comment": "Failed to delete service record message",
+      "updateAnswerSuccess": "Запис сервіса успішно оновлено",
+      "_updateAnswerSuccess.comment": "Updated successfully message",
+      "updateAnswerFailed": "Не вдалося оновити запис сервіса",
+      "_updateAnswerFailed.comment": "Failed to update service record message"
+    },
+    "useSpecialist": {
+      "loadData": {
+        "failed": "Помилка при завантажені даних",
+        "_failed.comment": "Load data failed message"
+      },
+      "createSpecialist": {
+        "success": "Користувача створено",
+        "_success.comment": "User created success message",
+        "failed": "Не вдалося створити користувача",
+        "_failed.comment": "User create failed message"
+      },
+      "updateSpecialist": {
+        "success": "Користувача оновлено",
+        "_success.comment": "User update success message",
+        "failed": "Не вдалося оновити користувача",
+        "_failed.comment": "User update failed message"
+      },
+      "deleteSpecialist": {
+        "success": "Користувача видалено",
+        "_success.comment": "User delete success message",
+        "failed": "Не вдалося видалити користувача",
+        "_failed.comment": "User delete failed message"
+      }
+    },
+    "useTag": {
+      "updateTag": {
+        "success": "Тег оновлено",
+        "_success.comment": "Tag successfully edited",
+        "failed": "Не вдалося оновити тег",
+        "_failed.comment": "Failed to edit tag"
+      },
+      "createTag": {
+        "success": "Тег додано",
+        "_success.comment": "Tag successfully added",
+        "failed": "Не вдалося додати тег",
+        "_failed.comment": "Failed to add a tag"
+      }
+    }
+  },
+  "tagCategory": {
+    "SDOH": "Соціальні визначники здоров'я",
+    "_SDOH.comment": "Tag group pretaining to a clients social determinants of health",
+    "PROGRAM": "Програма",
+    "_PROGRAM.comment": "Tag group for programs that a community based organization are conducting",
+    "GRANT": "Грант",
+    "_GRANT.comment": "Tag group for grants that a community based organization have recieved or are trying to receieve funding for",
+    "OTHER": "Інше",
+    "_OTHER.comment": "Tag group for tags that do not fall into the other groups",
+    "ALL": "Всі",
+    "_ALL.comment": "Used when referring to all tag groups"
+  },
+  "misc": {
+    "notApplicable": "Не застосовується",
+    "_notApplicable.comment": "Not Applicable"
+  }
+}

@@ -77,6 +77,12 @@ test.describe('The application header', () => {
 
 		createRequestLabelText = await po.dashboardPage.getNewRequestLabel()
 		expect(createRequestLabelText).toContain('Create a Request')
+
+		await po.sequences.selectUkrainianLanguage()
+		await po.dashboardPage.waitForLoad()
+
+		createRequestLabelText = await po.dashboardPage.getNewRequestLabel()
+		expect(createRequestLabelText).toContain('Створити Заявку')
 	})
 
 	test('can show notifications pane', async () => {

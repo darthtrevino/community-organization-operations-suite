@@ -17,6 +17,7 @@ const selectors: Record<string, string> = {
 	languageDropdown: '#languageDropdown',
 	englishButton: '#languageDropdown-list0',
 	spanishButton: '#languageDropdown-list1',
+	ukrainianButton: '#languageDropdown-list2',
 	notificationsBell: '#notifications-bell',
 	notificationsPanel: '#notifications-panel'
 }
@@ -82,6 +83,10 @@ export class Header extends Page {
 
 	public async clickSpanishButton() {
 		await this.page.click(selectors.spanishButton)
+	}
+
+	public async clickUkrainianButton() {
+		await this.page.click(selectors.ukrainianButton)
 	}
 
 	public async clickNotificationsBell() {

@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Фахівці",
+  "_pageTitle.comment": "Page title displayed in the browser tab",
+  "specialistsTitle": "Фахівці",
+  "_specialistsTitle.comment": "List header title for the list of specialists",
+  "specialistListColumns": {
+    "name": "Ім'я",
+    "_name.comment": "Name column header label of the list",
+    "numOfEngagement": "Кількість запитів",
+    "_numOfEngagement.comment": "Number of requests for assistance column header label of the list",
+    "username": "Ім'я користувача",
+    "_username.comment": "Username column header label of the list",
+    "permissions": "Дозволи",
+    "_permissions.comment": "Permissions column header label of the list"
+  },
+  "specialistListRowActions": {
+    "edit": "Редагувати",
+    "_edit.comment": "Row action button text for editing a specialist"
+  },
+  "specialistAddButton": "Додати фахівця",
+  "_specialistAddButton.comment": "Add Specialist button text",
+  "specialistEditButton": "Редагувати Фахівця",
+  "_specialistEditButton.comment": "Edit Specialist button text",
+  "specialistStatus": {
+    "assigned": "Призначений",
+    "_assigned.comment": "Assigned status for specialist requests",
+    "closed": "Зачинений",
+    "_closed.comment": "Closed status for specialist requests"
+  },
+  "specialistRoles": {
+    "admin": "Адмін",
+    "_admin.comment": "text for admin role",
+    "user": "Користувач",
+    "_user.comment": "text for user role"
+  },
+  "specialistNumOfAssignedEngagement": "Кількість призначених запитів",
+  "_specialistNumOfAssignedEngagement": "Number of assigned requests text on mobile view",
+  "addSpecialist": {
+    "title": "Додати фахівця",
+    "_title.comment": "Add Specialist panel title",
+    "fields": {
+      "specialistInfo": "Данні фвхівця",
+      "_specialistInfo.comment": "Specialist info field label",
+      "firstNamePlaceholder": "Ім'я",
+      "_firstNamePlaceholder.comment": "Placeholder for First name field",
+      "middleNamePlaceholder": "Середнє ім'я (необов'язково)",
+      "_middleNamePlaceholder.comment": "Placeholder for Middle name optional field",
+      "lastNamePlaceholder": "Прізвище",
+      "_lastNamePlaceholder.comment": "Placeholder for Last name field",
+      "userNameInfo": "Ім'я користувача",
+      "_userNameInfo.comment": "Username field label",
+      "userNamePlaceholder": "Ім'я користувача",
+      "_userNamePlaceholder.comment": "Placeholder for Username field",
+      "adminRoleInfo": "Роль адміністратора",
+      "_adminRoleInfo.comment": "Admin Role field label",
+      "adminRolePlaceholder": "Чи вимагає цей фахівець підвищених привілеїв?",
+      "_adminRolePlaceholder.comment": "Placeholder for admin role checkbox",
+      "addContactInfo": "Додати контактну інформацію",
+      "_addContactInfo.comment": "Add Contact info field label",
+      "emailPlaceholder": "Адреса електронної пошти",
+      "_emailPlaceholder.comment": "Placeholder for Email address field",
+      "phonePlaceholder": "Номер телефону",
+      "_phonePlaceholder.comment": "Placeholder for Phone number field"
+    },
+    "buttons": {
+      "createSpecialist": "Створити фахівця",
+      "_createSpecialist.comment": "Create Specialist button text"
+    },
+    "yup": {
+      "tooShort": "Занадто коротко",
+      "_tooShort.comment": "Validation label for too short value",
+      "tooLong": "Надто довго",
+      "_tooLong.comment": "Validation label for too long value",
+      "required": "Обов'язково",
+      "_required.comment": "Validation label for required value",
+      "invalidEmail": "Некоректна електронна пошта",
+      "_invalidEmail.comment": "Validation label for email value"
+    },
+    "submitMessage": {
+      "failed": "Не вдалося надіслати: перегляньте та оновіть поля або відредагуйте обліковий запис.",
+      "_failed.comment": "Failed message for submit"
+    }
+  },
+  "editSpecialist": {
+    "title": "Додати фахівця",
+    "_title.comment": "Add Specialist panel title",
+    "fields": {
+      "specialistInfo": "Данні фахівця",
+      "_specialistInfo.comment": "Specialist info field label",
+      "firstNamePlaceholder": "Ім'я",
+      "_firstNamePlaceholder.comment": "Placeholder for First name field",
+      "middleNamePlaceholder": "Середнє ім'я (необов'язково)",
+      "_middleNamePlaceholder.comment": "Placeholder for Middle name optional field",
+      "lastNamePlaceholder": "Прізвище",
+      "_lastNamePlaceholder.comment": "Placeholder for Last name field",
+      "userNameInfo": "Ім'я користувача",
+      "_userNameInfo.comment": "Username field label",
+      "userNamePlaceholder": "Ім'я користувача",
+      "_userNamePlaceholder.comment": "Placeholder for Username field",
+      "adminRoleInfo": "Роль адміністратора",
+      "_adminRoleInfo.comment": "Admin Role field label",
+      "adminRolePlaceholder": "Чи вимагає цей фахівець підвищених привілеїв?",
+      "_adminRolePlaceholder.comment": "Placeholder for admin role checkbox",
+      "addContactInfo": "Додати контактну інформацію",
+      "_addContactInfo.comment": "Add Contact info field label",
+      "emailPlaceholder": "Адреса електронної пошти",
+      "_emailPlaceholder.comment": "Placeholder for Email address field",
+      "phonePlaceholder": "Номер телефону",
+      "_phonePlaceholder.comment": "Placeholder for Phone number field"
+    },
+    "buttons": {
+      "save": "Зберегти",
+      "_save.comment": "Save button text",
+      "passwordReset": "Надіслати скидання пароля",
+      "_passwordReset.comment": "Send password reset button text",
+      "delete": "Видалити спеціаліста",
+      "_delete.comment": "Send password reset button text",
+      "dangerWarning": "Увага!",
+      "_dangerWarning.comment": "This is a header that goes above the delete button to warn the user that the area below it is sensitive.",
+      "deleteWarning": "Це видалить спеціаліста із системи. Облікові дані та дані для входу не будуть збережені. Цю дію не можна скасувати.",
+      "_deleteWarning.comment": "Comment warning user that if they proceed the user they are deleting will be removed from the system"
+    },
+    "yup": {
+      "tooShort": "Занадто коротко",
+      "_tooShort.comment": "Validation label for too short value",
+      "tooLong": "Надто довго",
+      "_tooLong.comment": "Validation label for too long value",
+      "required": "Обов'язково",
+      "_required.comment": "Validation label for required value",
+      "invalidEmail": "Некоректна електронна пошта",
+      "_invalidEmail.comment": "Validation label for email value"
+    },
+    "submitMessage": {
+      "failed": "Не вдалося надіслати: перегляньте та оновіть поля або відредагуйте обліковий запис.",
+      "_failed.comment": "Submit failed text"
+    },
+    "passwordResetMessage": {
+      "success": "Пароль успішно скинуто. Новий пароль надіслано на електронну пошту фахівця, що є у системі.",
+      "_success.comment": "Success message for password reset",
+      "failed": "Не вдалося скинути пароль.",
+      "_failed.comment": "Failed message for password reset"
+    }
+  },
+  "deleteModal": {
+    "title": "Видалити користувача",
+    "_title.comment": "Modal title for archiving a user",
+    "close": "Закрити",
+    "_close.comment": "Modal close button text",
+    "cancel": "Скасувати",
+    "_cancel.comment": "Modal cancel button text",
+    "subText": "Ви збираєтеся видалити [[userName]]. Якщо ви продовжите, ви втратите користувачів цієї служби та їхні записи.",
+    "_subText.comment": "Modal subtitle text for archiving a service. {Placeholder = [,userName,]}"
+  },
+  "viewSpecialist": {
+    "header": {
+      "contact": "Контакт",
+      "_contact.comment": "Contact field label",
+      "status": "Статус",
+      "_status.comment": "Status field label",
+      "permissions": "Дозволи",
+      "_permissions.comment": "Permissions field label",
+      "roles": {
+        "admin": "Адмін",
+        "_admin.comment": "text for admin role",
+        "user": "Користувач",
+        "_user.comment": "text for user role"
+      },
+      "activeStatus": "Активний",
+      "_activeStatus.comment": "User account status"
+    },
+    "body": {
+      "bio": "Біографія",
+      "_bio.comment": "User's Biography section label",
+      "trainingAchievement": "Навчання / Досягнення",
+      "_trainingAchievement.comment": "Training and achievements label",
+      "noDetails": "Наразі жодного не надано.",
+      "_noDetails.comment": "No details message text"
+    }
+  }
+}

@@ -32,7 +32,14 @@ export class Localization {
 			header: 'accept_language',
 
 			// Fallback names of standard diviations to available formats
-			fallbacks: { en: 'en-US', 'en-*': 'en-US', es: 'es-US', 'es-*': 'es-US' },
+			fallbacks: {
+				en: 'en-US',
+				'en-*': 'en-US',
+				es: 'es-US',
+				'es-*': 'es-US',
+				uk: 'uk-UA',
+				'uk-*': 'uk-UA'
+			},
 
 			// Enable object notation
 			objectNotation: true,

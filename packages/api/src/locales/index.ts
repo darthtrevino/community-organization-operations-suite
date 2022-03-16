@@ -5,8 +5,10 @@
 
 import { en } from './en-US'
 import { es } from './es-US'
+import { uk } from './uk-UA'
 
 export const locales = {
 	'en-US': en,
-	'es-US': es
+	'es-US': es,
+	'uk-UA': uk
 }

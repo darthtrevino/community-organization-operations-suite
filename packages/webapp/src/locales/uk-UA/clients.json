@@ -1,0 +1,291 @@
+{
+  "pageTitle": "Клієнти",
+  "_pageTitle.comment": "Заголовок сторінки, що відображається на вкладці браузера",
+  "clientsTitle": "Клієнти",
+  "_clientsTitle.comment": "Назва заголовку списку для списку клієнтів",
+  "archived": "Архівовані",
+  "_archived.comment": "Помітка, яка використовується для позначення того, що клієнт був заархівований (більше не може бути доданий до запиту)",
+  "clientList": {
+    "columns": {
+      "name": "Ім'я",
+      "_name.comment": "Назва заголовку колонки списку Ім'я",
+      "requests": "Запити",
+      "_requests.comment": "Назва заголовку колонки списку Запити",
+      "tags": "Теги",
+      "_tags.comment": "Назва заголовку колонки списку Теги"
+    },
+    "rowActions": {
+      "edit": "Редагувати",
+      "_edit.comment": "Текст кнопки редагування запису про клієнта"
+    }
+  },
+  "archiveModal": {
+    "title": "Заархівувати клієнта",
+    "_title.comment": "Заголовок модального вікна архівації клієнта",
+    "close": "Закрити",
+    "_close.comment": "Текст кнопки закриття модального вікна",
+    "cancel": "Скасувати",
+    "_cancel.comment": "Текст кнопки скасування модального вікна",
+    "subText": "Ви збираєтеся заархівувати [[clientName]]. Якщо Ви продовжите, клієнт та його записи не будуть доступні для цього сервісу.",
+    "_subText.comment": "Текст підзаголовку модального вікна архівації клієнта. {Placeholder = [,clientName,]}"
+  },
+  "clientAddButton": "Додати клієнта",
+  "_clientAddButton.comment": "Текст кнопки Додати клієнта",
+  "clientEditButton": "Редагувати клієнта",
+  "_clientEditButton.comment": "Текст кнопки Редагувати клієнта",
+  "clientStatus": {
+    "completed": "Завершено",
+    "_completed.comment": "Текст статусу Завершено",
+    "open": "Відкрито",
+    "_open.comment": "Текст статусу Відкрито",
+    "requests": "Запити",
+    "_requests.comment": "Текст статусу Запити"
+  },
+  "addClientTitle": "Додати клієнта",
+  "_addClientTitle.comment": "Заголовок панелі Додати клієнта",
+  "addClient": {
+    "fields": {
+      "personalInfo": "Персональна інформація",
+      "_personalInfo.comment": "Назва поля Персональна інформація",
+      "firstNamePlaceholder": "Ім'я",
+      "_firstNamePlaceholder.comment": "Поле вводу Ім'я",
+      "middleNamePlaceholder": "Середнє ім'я (опціонально)",
+      "_middleNamePlaceholder.comment": "Поле вводу Середнє ім'я опціонально",
+      "lastNamePlaceholder": "Прізвище",
+      "_lastNamePlaceholder.comment": "Поле вводу Прізвище",
+      "dateOfBirthPlaceholder": "Дата народження",
+      "_dateOfBirthPlaceholder.comment": "Поле вводу Дата народження",
+      "addContactInfo": "Додати контактну інформацію",
+      "_addContactInfo.comment": "Назва поля Додати контактну інформацію",
+      "emailPlaceholder": "Адреса електронної пошти",
+      "_emailPlaceholder.comment": "Поле вводу Адреса електронної пошти",
+      "phonePlaceholder": "Номер телефону",
+      "_phonePlaceholder.comment": "Поле вводу Номер телефону",
+      "address": "Адреса",
+      "_address.comment": "Назва поля Адреса",
+      "streetPlaceholder": "Вулиця",
+      "_streetPlaceholder.comment": "Поле вводу Вулиця",
+      "unitPlaceholder": "Номер будинку",
+      "_unitPlaceholder.comment": "Поле вводу Номер будинку",
+      "countyPlaceholder": "Область",
+      "_countyPlaceholder.comment": "Полде вводу Область",
+      "cityPlaceholder": "Місто",
+      "_cityPlaceholder.comment": "Поле вводу Місто",
+      "statePlaceHolder": "Країна",
+      "_statePlaceHolder.comment": "Поле вводу Країна",
+      "zipCodePlaceholder": "Поштовий індекс",
+      "_zipCodePlaceholder.comment": "Поле вводу Поштовий індекс",
+      "tags": "Теги",
+      "_tags.comment": "Назва поля Теги",
+      "addTagsPlaceholder": "Додати теги...",
+      "_addTagsPlaceholder.comment": "Поле вводу Додати теги",
+      "notes": "Нотатки",
+      "_notes.comment": "Нотатки, додані до клієнтської інформації у вільній формі",
+      "notesPlaceholder": "Додаткова інформація",
+      "_notesPlaceholder.comment": "Поле вводу Додаткова інформація"
+    },
+    "buttons": {
+      "createClient": "Створити клієнта",
+      "_createClient.comment": "Текст кнопки Створити клієнта"
+    },
+    "yup": {
+      "tooShort": "Значення поля занадто коротке",
+      "_tooShort.comment": "Текст валідації для занадто короткого значення",
+      "tooLong": "Значення поля занадто довге",
+      "_tooLong.comment": "Текст валідації для занадто довгого значення",
+      "required": "Обов'язкове поле",
+      "_required.comment": "Текст валідації для обов'язкового поля"
+    },
+    "submitMessage": {
+      "failed": "Помилка: Будь ласка, перегляньте і виправте поля, або внесіть зміни до запису існуючого клієнта."
+    }
+  },
+  "editClientTitle": "Редагувати клієнта",
+  "_editClientTitle.comment": "Заголовок панелі Редагувати клієнта",
+  "editClient": {
+    "fields": {
+      "personalInfo": "Персональна інформація",
+      "_personalInfo.comment": "Назва поля Персональна інформація",
+      "firstNamePlaceholder": "Ім'я",
+      "_firstNamePlaceholder.comment": "Поле вводу Ім'я",
+      "middleNamePlaceholder": "Середнє ім'я (опціонально)",
+      "_middleNamePlaceholder.comment": "Поле вводу Середнє ім'я опціонально",
+      "lastNamePlaceholder": "Прізвище",
+      "_lastNamePlaceholder.comment": "Поле вводу Прізвище",
+      "dateOfBirthPlaceholder": "Дата народження",
+      "_dateOfBirthPlaceholder.comment": "Поле вводу Дата народження",
+      "addContactInfo": "Додати контактну інформацію",
+      "_addContactInfo.comment": "Назва поля Додати контактну інформацію",
+      "emailPlaceholder": "Адреса електронної пошти",
+      "_emailPlaceholder.comment": "Поле вводу Адреса електронної пошти",
+      "phonePlaceholder": "Номер телефону",
+      "_phonePlaceholder.comment": "Поле вводу Номер телефону",
+      "address": "Адреса",
+      "_address.comment": "Назва поля Адреса",
+      "streetPlaceholder": "Вулиця",
+      "_streetPlaceholder.comment": "Поле вводу Вулиця",
+      "unitPlaceholder": "Номер будинку",
+      "_unitPlaceholder.comment": "Поле вводу Номер будинку",
+      "cityPlaceholder": "Місто",
+      "_cityPlaceholder.comment": "Поле вводу Місто",
+      "countyPlaceholder": "Область",
+      "_countyPlaceholder.comment": "Поле вводу Область",
+      "statePlaceHolder": "Країна",
+      "_statePlaceHolder.comment": "Поле вводу Країна",
+      "zipCodePlaceholder": "Поштовий індекс",
+      "_zipCodePlaceholder.comment": "Поле вводу Поштовий індекс",
+      "tags": "Теги",
+      "_tags.comment": "Назва поля Теги",
+      "addTagsPlaceholder": "Додати теги...",
+      "_addTagsPlaceholder.comment": "Поле вводу Додати теги",
+      "notes": "Нотатки",
+      "_notes.comment": "Нотатки, додані до клієнтської інформації у вільній формі",
+      "notesPlaceholder": "Додаткова інформація",
+      "_notesPlaceholder.comment": "Поле вводу Додаткова інформація"
+    },
+    "buttons": {
+      "save": "Зберегти",
+      "_save.comment": "Текст кнопки Зберегти",
+      "archive": "Заархівувати клієнта",
+      "_archive.comment": "Текст кнопки заархівувати клієнта",
+      "dangerWarning": "Увага!",
+      "_dangerWarning.comment": "Це заголовок над кнопкою архівації для попередження користувача про можливість небезпечної операції.",
+      "archiveWarning": "Це приведе до архівації клієнта з системи. Клієнтські дані будуть відображатися у звітах, але їх неможливо буде додати до нових запитів чи сервісних записів. Ця операція не може бути скасована.",
+      "_archiveWarning.comment": "Коментар, який попереджає користувача про необоротність процедури архівації."
+    },
+    "yup": {
+      "tooShort": "Значення поля занадто коротке",
+      "_tooShort.comment": "Текст валідації для занадто короткого значення",
+      "tooLong": "Значення поля занадто довге",
+      "_tooLong.comment": "Текст валідації для занадто довгого значення",
+      "required": "Обов'язкове поле",
+      "_required.comment": "Текст валідації для обов'язкового поля"
+    },
+    "submitMessage": {
+      "failed": "Помилка: Будь ласка, перегляньте і виправте поля, або внесіть зміни до запису існуючого клієнта.",
+      "_failed.comment": "Failed message for submit"
+    }
+  },
+  "viewClient": {
+    "header": {
+      "dateOfBirth": "Дата народження",
+      "_dateOfBirth.comment": "Date of Birth field label",
+      "contact": "Контакт",
+      "_contact.comment": "Contact field label",
+      "tags": "Теги",
+      "_tags.comment": "Tags field label"
+    },
+    "body": {
+      "requestCreated": "Запит створено",
+      "_requestCreated.comment": "Назва секції Запит створено",
+      "status": "Статус",
+      "_status.comment": "Назва поля Статус",
+      "assignedTo": "Доручено",
+      "_assignedTo.comment": "Назва поля Доручено",
+      "timeRemaining": "Залишилося часу",
+      "_timeRemaining.comment": "Назва поля Залишилося часу",
+      "noRequests": "Немає запитів для цього контакту.",
+      "_noRequests.comment": "Текст для контактів без запитів"
+    },
+    "status": {
+      "assigned": "Доручено",
+      "_assigned.comment": "Статус Доручено",
+      "notStarted": "Не розпочато",
+      "_notStarted.comment": "Статус Не розпочато"
+    }
+  },
+  "demographics": {
+    "notProvided": "Не надано",
+    "_notProvided.comment": "Помітка про те, що контакт не надав жодних демографічних даних",
+    "gender": {
+      "label": "Стать",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору статі клієнта",
+      "customOptionPlaceholder": "Стать...",
+      "_customOptionPlaceholder.comment": "Поле вводу статі клієнта, якщо не вказано в списку",
+      "options": {
+        "female": "Жіноча",
+        "_female.comment": "Вказує, що клієнт ідентифікує себе як жінка",
+        "male": "Чоловіча",
+        "_male.comment": "Вказує, що клієнт ідентифікує себе як чоловік",
+        "other": "Інше",
+        "_other.comment": "Вказує, що клієнт не ідентифікує себе як жінка чи чоловік"
+      }
+    },
+    "ethnicity": {
+      "label": "Етнічна приналежність",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору етнічної приналежності клієнта",
+      "customOptionPlaceholder": "Етнічна приналежність...",
+      "_customOptionPlaceholder.comment": "Поле вводу етнічної приналежності клієнта, якщо не вказано у списку",
+      "options": {
+        "hispanic": "Іспанське походження",
+        "_hispanic.comment": "Вказує, що клієнт відносить себе до групи іспаномовних",
+        "not-hispanic-or-latino": "Не іспанське або не латиноамериканське походження",
+        "_not-hispanic-or-latino.comment": "Вказує, що клієнт не відносить себе до групи іспаномовних чи латиноамериканців",
+        "other": "Інше",
+        "_other.comment": "Вказує, що клієнт обрав інший варіант",
+        "undeclared": "",
+        "_undeclared.comment": "Вказує, що клієнт не вказав етничну приналежність"
+      }
+    },
+    "race": {
+      "label": "Расова приналежність",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору расової прналежності клієнта",
+      "customOptionPlaceholder": "Расова приналежність...",
+      "_customOptionPlaceholder.comment": "Поле вводу расової приналежності клієнта, якщо не вказано у списку",
+      "options": {
+        "american-indian-alaska-native": "Американський/а індіанець/ка або корінний/а мешканець/ка Аляски",
+        "_american-indian-alaska-native.comment": "Вказує, що клієнт відносить себе до групи корінних американців",
+        "asian": "Представник/ця азіатської групи",
+        "_asian.comment": "Вказує, що клієнт відносить себе до азійців",
+        "black-aa": "Темношкірий/а або афроамериканець/ка",
+        "_black-aa.comment": "Вказує, що клієнт відносить себе до темношкірої чи афроамериканської раси",
+        "native-hawaiian-pacific-islander": " Корінний/а гаваєць/ка / Житель тихоокеанських островів",
+        "_native-hawaiian-pacific-islander.comment": "Вказує, що клієнт відносить себе до корінної гаїтянської чи тихоокеанської раси",
+        "white": "Європеоїдної раси",
+        "_white.comment": "Вказує, що клієнт відносить себе до білої раси",
+        "other": "Інша",
+        "_other.comment": "Вказує, що клієнт відносить себе до іншої раси"
+      }
+    },
+    "preferredContactMethod": {
+      "label": "Бажаний спосіб зв'язку",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору бажаного способу зв'язку з клієнтом",
+      "options": {
+        "phone": "Телефон",
+        "_phone.comment": "Вказує, що клієнт надає перевагу телефонному зв'язку",
+        "email": "Електронна пошта",
+        "_email.comment": "Вказує, що клієнт надає перевагу електронній пошті",
+        "at-home-visit": "Візит додому",
+        "_at-home-visit.comment": "Вказує, що клієнт надає перевагу візиту додому",
+        "mail": "Пошта",
+        "_mail.comment": "Вказує, що клієнт надає перевагу пошті"
+      }
+    },
+    "preferredLanguage": {
+      "label": "Бажана мова спілкування",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору бажаної мови спілкування з клієнтом",
+      "customOptionPlaceholder": "Мова...",
+      "_customOptionPlaceholder.comment": "Поле вводу бажаної мови спілкування з клієнтом, якщо не вказано у списку",
+      "options": {
+        "english": "Англійська",
+        "_english.comment": "Вказує, що клієнт надає перевагу англійській мові спілкування",
+        "spanish": "Іспанська",
+        "_spanish.comment": "Вказує, що клієнт надає перевагу іспанській мові спілкування",
+        "other": "Інша",
+        "_other.comment": "Вказує, що клієнт надає перевагу іншій мові спилкування"
+      }
+    },
+    "preferredContactTime": {
+      "label": "Зручний час для спілкування",
+      "_label.comment": "Назва елементу користувацького інтерфейсу для вибору зручного часу для спілкування з клієнтом",
+      "options": {
+        "morning": "Ранок",
+        "_morning.comment": "Вказує, що клієнт надає перевагу спілкуванню вранці",
+        "day": "День",
+        "_day.comment": "Вказує, що клієнт надає перевагу спілкуванню вдень",
+        "evening": "Вечір",
+        "_evening.comment": "Вказує, що клієнт надає перевагу спілкуванню ввечері"
+      }
+    }
+  }
+}

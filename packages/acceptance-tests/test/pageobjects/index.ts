@@ -43,6 +43,7 @@ export interface PageObjects {
 		login: () => Promise<void>
 		selectSpanishLanguage: () => Promise<void>
 		selectEnglishLanguage: () => Promise<void>
+		selectUkrainianLanguage: () => Promise<void>
 	}
 }
 
@@ -94,6 +95,10 @@ export function createPageObjects(page: Page): PageObjects {
 			selectEnglishLanguage: async () => {
 				await header.clickLanguageDropdown()
 				await header.clickEnglishButton()
+			},
+			selectUkrainianLanguage: async () => {
+				await header.clickLanguageDropdown()
+				await header.clickUkrainianButton()
 			}
 		}
 	}

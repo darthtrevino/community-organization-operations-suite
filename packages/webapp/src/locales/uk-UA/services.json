@@ -1,0 +1,242 @@
+{
+  "pageTitle": "Сервіси",
+  "_pageTitle.comment": "Page title displayed in the browser tab",
+  "servicesTitle": "Сервіси",
+  "_servicesTitle.comment": "List header title for the list of services",
+  "serviceListColumns": {
+    "name": "Інформація про сервіс",
+    "_name.comment": "Name column header label of the list",
+    "description": "Опис сервісу",
+    "_description.comment": "Description column header label of the list",
+    "tags": "Тегі, пов’язані з цім сервісом",
+    "_tags.comment": "Tags column header label of the list"
+  },
+  "serviceListRowActions": {
+    "start": "Почати",
+    "_start.comment": "Row action button text for starting a service",
+    "edit": "Редагувати",
+    "_edit.comment": "Row action button text for editing a service",
+    "archive": "Заархівувати",
+    "_archive.comment": "Row action button text for archiving a service"
+  },
+  "archiveModal": {
+    "title": "Заархівувати сервіс",
+    "_title.comment": "Modal title for archiving a service",
+    "close": "Закрити",
+    "_close.comment": "Modal close button text",
+    "cancel": "Скасувати",
+    "_cancel.comment": "Modal cancel button text",
+    "subText": "Ви збираєтеся архівувати [[serviceName]]. Якщо ви продовжите, ви втратите доступ до сервісу та записів.",
+    "_subText.comment": "Modal subtitle text for archiving a service. {Placeholder = [,serviceName,]}"
+  },
+  "serviceListAddButton": "Новий сервіс",
+  "_serviceListAddButton.comment": "Button text for adding a new service",
+  "addService": {
+    "title": "Додати новий сервіс",
+    "_title.comment": "Title of the form for adding a new service",
+    "description": "Сервіс — це суккулентний набір завдань або випадків, коли інформацію можна зібрати за допомогою анкети-форми.",
+    "_description.comment": "Description of what a service is",
+    "customFormFields": "Настроювані поля форми",
+    "_customFormFields.comment": "Label for the section of the form for adding custom form fields",
+    "addClientIntakeForm": "Додати форму залучення клієнтів",
+    "_addClientIntakeForm.comment": "Button text for adding a client intake form",
+    "clientContentWarning": "Форма залучення клієнтів включає: ім’я клієнта, контактну інформацію, уподобання та демографічні дані",
+    "_clientContentWarning.comment": "Warning on the add service form to indicate which fields exist on the client intake form in order to prevent the specialist from adding duplicate fields to the custom field inputs for the service",
+    "customFormDescription": "Створіть форму для збору та звітування даних для сервісу",
+    "_customFormDescription.comment": "Description of the form for adding a custom form",
+    "customFormFieldsDescription": "Змініть тип даних, які потрібно внести в полі",
+    "_customFormFieldsDescription.comment": "Description of the form for adding custom form fields",
+    "fields": {
+      "name": "Інформація про сервіс",
+      "_name.comment": "Name field label of the form",
+      "nameSubText": "Назвіть і опишіть втручання або форму, для якої ви збираєте дані.",
+      "_nameSubText.comment": "Subtext for the name field of the form",
+      "description": "Опис сервісу",
+      "_description.comment": "Description field label of the form",
+      "tags": "Тегі, пов’язані з цім сервісом",
+      "_tags.comment": "Tags field label of the form",
+      "formFields": "Поля даних",
+      "_formFields.comment": "Describes section containing custom form fields",
+      "dataType": "Тип даних",
+      "_dataType.comment": "Data type field label of the form",
+      "fieldRequirement": "Вимога",
+      "_fieldRequirement.comment": "Field requirement field label of the form"
+    },
+    "placeholders": {
+      "name": "Назва сервісу",
+      "_name.comment": "Placeholder text for the name field of the form",
+      "description": "Додати опис",
+      "_description.comment": "Placeholder text for the description field of the form",
+      "tags": "Додати тег",
+      "_tags.comment": "Placeholder text for the tags field of the form"
+    },
+    "buttons": {
+      "createService": "Створити сервіс",
+      "_createService.comment": "Create service button label of the form",
+      "previewForm": "Переглянути форму",
+      "_previewForm.comment": "Button text for previewing a service form"
+    },
+    "yup": {
+      "required": "Обов'язково",
+      "_required.comment": "Error message for required fields",
+      "allRequired": "Усі поля обов'язкові",
+      "_allRequired.comment": "Error message for required fields"
+    }
+  },
+  "editService": {
+    "title": "Редагування сервісу",
+    "_title.comment": "Title of the form for editing a service",
+    "customFormFields": "Поля даних",
+    "_customFormFields.comment": "Label for the section of the form for adding custom form fields",
+    "addClientIntakeForm": "Додати форму залучення клієнтів",
+    "_addClientIntakeForm.comment": "Button text for adding a client intake form",
+    "clientContentWarning": "Форма залучення клієнтів містить: ім’я клієнта, контактну інформацію, уподобання та демографічні показники",
+    "_clientContentWarning.comment": "Warning on the add service form to indicate which fields exist on the client intake form in order to prevent the specialist from adding duplicate fields to the custom field inputs for the service",
+    "customFormDescription": "Створіть форму для збору та звітування даних для сервісу",
+    "_customFormDescription.comment": "Description of the form for adding a custom form",
+    "customFormFieldsDescription": "Укажіть тип даних і чи потрібні вони.",
+    "_customFormFieldsDescription.comment": "Description of the form for adding custom form fields",
+    "fields": {
+      "name": "Назва сервісу",
+      "_name.comment": "Name field label of the form",
+      "nameSubText": "Тут ви можете надати огляд інформації про цій сервіс",
+      "_nameSubText.comment": "Subtext for the name field of the form",
+      "description": "Опис сервісу",
+      "_description.comment": "Description field label of the form",
+      "tags": "Тегі, пов’язані з цім сервісом",
+      "_tags.comment": "Tags field label of the form",
+      "formFields": "Створення форми даних сервісу",
+      "_formFields.comment": "Form fields field label of the form",
+      "dataType": "Тип даних",
+      "_dataType.comment": "Data type field label of the form",
+      "fieldRequirement": "Вимога",
+      "_fieldRequirement.comment": "Field requirement field label of the form"
+    },
+    "placeholders": {
+      "name": "Назва сервісу",
+      "_name.comment": "Placeholder text for the name field of the form",
+      "description": "Додати опис",
+      "_description.comment": "Placeholder text for the description field of the form",
+      "tags": "Додати тегі",
+      "_tags.comment": "Placeholder text for the tags field of the form"
+    },
+    "buttons": {
+      "updateService": "Оновити сервіс",
+      "_createService.comment": "Update service button label of the form",
+      "previewForm": "Переглянути форму",
+      "_previewForm.comment": "Button text for previewing a service form"
+    },
+    "yup": {
+      "required": "Обов'язково",
+      "_required.comment": "Error message for required fields",
+      "allRequired": "Всі поля обов'язкові для заповнення",
+      "_allRequired.comment": "Error message for required fields"
+    }
+  },
+  "formBuilder": {
+    "dataTypeOptions": {
+      "singleText": "Однорядкове текстове поле",
+      "_singleText.comment": "Option label for the single text field data type",
+      "multilineText": "Багаторядкове текстове поле",
+      "_multilineText.comment": "Option label for the multiline text field data type",
+      "multiText": "Багато текстове поле",
+      "_multiText.comment": "Option label for the multi text field data type",
+      "number": "Номер",
+      "_number.comment": "Option label for the number field data type",
+      "date": "Дата",
+      "_date.comment": "Option label for the date field data type",
+      "singleChoice": "Єдиний вибір",
+      "_singleChoice.comment": "Option label for the singleChoice field data type",
+      "multiChoice": "Багатофункціональний вибір",
+      "_multiChoice.comment": "Option label for the multiChoice field data type"
+    },
+    "fieldRequirementOptions": {
+      "optional": "За бажанням",
+      "_optional.comment": "Option label for the optional field requirement",
+      "required": "Обов'язково",
+      "_required.comment": "Option label for the required field requirement",
+      "clientOptional": "Клієнт необов'язково",
+      "_clientOptional.comment": "Option label for the client optional field requirement"
+    },
+    "placeholders": {
+      "fieldName": "Enter field label",
+      "_fieldName.comment": "Placeholder text for the field name field of the form",
+      "fieldType": "Select data type",
+      "_fieldType.comment": "Placeholder text for the field type field of the form",
+      "fieldRequirement": "Select requirement",
+      "_fieldRequirement.comment": "Placeholder text for the field requirement field of the form"
+    },
+    "buttons": {
+      "addField": "Додати поле",
+      "_addField.comment": "Add field button label of the form",
+      "removeField": "Видалити поле",
+      "_removeField.comment": "Remove field button label of the form"
+    },
+    "validations": {
+      "allRequired": "Всі поля обов'язкові для заповнення",
+      "_allRequired.comment": "Error message for required fields",
+      "singleChoice": "Усі поля є обов’язковими для заповнення та мають містити 2 або більше параметрів",
+      "_singleChoice.comment": "Error message for single choice fields",
+      "multiChoice": "Усі поля є обов’язковими для заповнення і повинні мати принаймні 1 параметр",
+      "_multiChoice.comment": "Error message for multi choice fields"
+    }
+  },
+  "formBuilderOptionField": {
+    "placeholders": {
+      "fieldName": "Введіть назву параметра",
+      "_fieldName.comment": "Placeholder text for the option name field of the form"
+    },
+    "buttons": {
+      "addField": "Додати поле",
+      "_addField.comment": "Add field button label of the form",
+      "removeField": "Видалити поле",
+      "_removeField.comment": "Remove field button label of the form"
+    }
+  },
+  "formGenerator": {
+    "addExistingClient": "Додати існуючого клієнта",
+    "_addExistingClient.comment": "Add existing client button label of the form",
+    "addClientPlaceholder": "Введіть текст ...",
+    "_addClientPlaceholder.comment": "Placeholder text for the add client field of the form",
+    "buttons": {
+      "addNewClient": "Новий клієнт",
+      "_addNewClient.comment": "Add client button label of the form",
+      "submit": "Подати",
+      "_submit.comment": "Submit button label of the form",
+      "quickActions": "Панель швидких дій",
+      "_quickActions.comment": "Quick actions panel button label of the form"
+    },
+    "validation": {
+      "required": "Обов'язково",
+      "_required.comment": "Error message for required fields",
+      "numeric": "Має бути числовим",
+      "_numeric.comment": "Error message for numeric fields"
+    }
+  },
+  "serviceKiosk": {
+    "title": "Кіоск сервісу",
+    "_title.comment": "Title of the service kiosk"
+  },
+  "quickActionsPanelBody": {
+    "title": "Швидкі дії",
+    "_title.comment": "Title of the quick actions panel",
+    "addNewClient": "Додати нового клієнта",
+    "_addNewClient.comment": "Add new client button label of the form",
+    "createNewRequest": "Створіть новий запит",
+    "_createNewRequest.comment": "Create new request button label of the form",
+    "buttons": {
+      "addNewClient": "Додати клієнта",
+      "_addNewClient.comment": "Add client button label of the form",
+      "createNewRequest": "Новий запит",
+      "_createNewRequest.comment": "Create new request button label of the form"
+    }
+  },
+  "serviceListPanelBody": {
+    "title": "Запустіть сервіс",
+    "_title.comment": "Title of the start a service panel",
+    "buttons": {
+      "startService": "Запустіть сервіс",
+      "_startService.comment": "Record service button label of the form"
+    }
+  }
+}

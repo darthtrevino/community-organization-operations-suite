@@ -6,13 +6,13 @@ import { defineMessages } from 'react-intl'
 
 describe('The useTranslation hook', () => {
 	it('can localize messages', () => {
-		const localizations = require('../../../public/localizations/es-US.json')
+		const localizations = require('../../../public/localizations/uk-UA.json')
 		expect(localizations).toBeTruthy()
 
 		const messages = defineMessages(localizations)
 		expect(messages).toBeTruthy()
 
 		expect(messages.common.app.title).toBe('Resolve')
-		expect(messages.common['personaTitle']).toBe('Hola, [[firstName]]')
+		expect(messages.common['personaTitle']).toBe('Привіт, [[firstName]]')
 	})
 })

@@ -1,0 +1,90 @@
+{
+  "pageTitle": "Тегі",
+  "_pageTitle.comment": "Page title displayed in the browser tab",
+  "requestTagsTitle": "Тегі",
+  "_requestTagsTitle.comment": "List header title for the list of tags",
+  "requestTagListColumns": {
+    "tag": "Тег",
+    "_tag.comment": "Tag column header label of the list",
+    "description": "Опис",
+    "_description.comment": "Description column header label of the list",
+    "category": "Категорія",
+    "_category": "Type of tag",
+    "totalUsage": "Всього використань",
+    "_totalUsage.comment": "Total uses column header label of the list",
+    "numOfServices": "Кількість сервісних записів",
+    "_numOfServices.comment": "Number of service entries column header label of the list",
+    "numOfEngagements": "Кількість запитів",
+    "_numOfEngagements.comment": "Number of requests for assistance column header label of the list",
+    "numOfClients": "Кількість клієнтів",
+    "_numOfClients.comment": "Number of clients column header label of the list",
+    "usageCounts": "Кількість використань",
+    "_usageCounts.comment": "Usage counts label for mobile view",
+    "total": "Всього",
+    "_total.comment": "Total label for mobile view",
+    "services": "Сервісні записі",
+    "_services.comment": "Services label for mobile view",
+    "engagements": "Запити",
+    "_engagements.comment": "Requests label for mobile view",
+    "clients": "Клієнти",
+    "_clients.comment": "Clients label for mobile view"
+  },
+  "requestTagListRowActions": {
+    "edit": "Редагувати",
+    "_edit.comment": "Row action button text for editing a tag"
+  },
+  "requestTagAddButton": "Новий тег",
+  "_requestTagAddButton.comment": "New Tag button text",
+  "requestTagEditButton": "Редагувати тег",
+  "_requestTagEditButton.comment": "Edit Tag button text",
+  "requestTagExportButton": "Експорт даних",
+  "_requestTagExportButton.comment": "Export Data button text",
+  "tagCategory": {
+    "select": {
+      "placeholder": "Виберіть категорію",
+      "_placeholder.comment": "Placeholder for the category select dropdown"
+    }
+  },
+  "addTag": {
+    "tagInfo": "Інформація тега",
+    "_tagInfo.comment": "Tag info field label",
+    "tagPlaceholder": "Ім'я тега",
+    "_tagPlaceholder.comment": "Placeholder for Tag name",
+    "descriptionPlaceholder": "Опис тега",
+    "_descriptionPlaceholder.comment": "Placeholder for Tag description",
+    "categoryPlaceholder": "Категорія тега",
+    "_categoryPlaceholder.comment": "Placeholder used when selecting tag category, tag category is stored in common.json",
+    "buttons": {
+      "createTag": "Створити тег",
+      "_createTag.comment": "Create Tag button text"
+    },
+    "submitMessage": {
+      "failed": "Помилка: неможливо створити тег",
+      "_failed.comment": "Failed submit message text"
+    },
+    "yup": {
+      "required": "Необхідний",
+      "_required.comment": "Validation label for required value"
+    }
+  },
+  "editTag": {
+    "tagInfo": "Інформація тега",
+    "_tagInfo.comment": "Tag info field label",
+    "tagPlaceholder": "Ім'я тега",
+    "_tagPlaceholder.comment": "Placeholder for Tag name",
+    "descriptionPlaceholder": "Опис тега",
+    "_descriptionPlaceholder.comment": "Placeholder for Tag description",
+    "buttons": {
+      "save": "Зберегти",
+      "_save.comment": "Save button text"
+    },
+    "submitMessage": {
+      "failed": "Помилка: не вдалося зберегти тег",
+      "_failed.comment": "Failed submit message text"
+    },
+    "yup": {
+      "required": "Необхідний",
+      "_required.comment": "Validation label for required value"
+    }
+  }
+}

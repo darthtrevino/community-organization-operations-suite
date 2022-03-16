@@ -1,0 +1,348 @@
+{
+  "authenticate": {
+    "success": "Аутентифікація успішна",
+    "_success.comment": "Success message for authentication",
+    "failed": "Помилка автентифікації",
+    "_failed.comment": "Failed message for authentication"
+  },
+  "createEngagement": {
+    "unauthorized": "Неавторизований",
+    "_unauthorized.comment": "Unauthorized message for createEngagement",
+    "actions": {
+      "createRequest": "Створено запит",
+      "_createRequest.comment": "Created request action comment",
+      "assignedRequest": "Призначений [[username]] запит",
+      "_assignedRequest.comment": "Assigned request action comment. {Placeholder=[,username,]}",
+      "claimedRequest": "Заявлений запит",
+      "_claimedRequest.comment": "Claimed request action comment"
+    },
+    "unableToAssign": "Неможливо призначити запит, користувача не знайдено",
+    "_unableToAssign.comment": "Unable to assign failed message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateEngagement": {
+    "unauthorized": "Неавторизований",
+    "_unauthorized.comment": "Unauthorized message for updateEngagement",
+    "noRequestId": "Необхідний ідентифікатор запиту",
+    "_noRequestId.comment": "Request id error message",
+    "requestNotFound": "Запит не знайдено",
+    "_requestNotFound.comment": "Request not found error message",
+    "actions": {
+      "updatedRequest": "Запит оновлено",
+      "_updatedRequest.comment": "Updated request action comment",
+      "unassignRequest": "Вилучено призначеного фахівця",
+      "_unassignRequest.comment": "Removed assigned specialist action comment",
+      "reassignRequest": "Запит перепризначений на: [[username]]",
+      "_reassignRequest.comment": "Reassigned request action comment. {Placeholder=[,username,]}"
+    },
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "assignEngagement": {
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "requestNotFound": "Запит не знайдено",
+    "_requestNotFound.comment": "Request not found error message",
+    "actions": {
+      "assignedRequest": "Assigned [[username]] request",
+      "_assignedRequest.comment": "Assigned request action comment. {Placeholder=[,username,]}",
+      "claimedRequest": "Заявлений запит",
+      "_claimedRequest.comment": "Claimed request action comment"
+    },
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "completeEngagement": {
+    "unauthorized": "Неавторизований",
+    "_unauthorized.comment": "Unauthorized message for updateEngagement",
+    "requestNotFound": "Запит не знайдено",
+    "_requestNotFound.comment": "Request not found error message",
+    "actions": {
+      "markComplete": "Позначети запит як завершений",
+      "_markComplete.comment": "Mark request complete action comment"
+    },
+    "success": "Success",
+    "_success.comment": "Success message"
+  },
+  "setEngagementStatus": {
+    "requestNotFound": "Запит не знайдено",
+    "_requestNotFound.comment": "Request not found error message",
+    "actions": {
+      "markComplete": "Позначети запит як завершений",
+      "_markComplete.comment": "Mark request complete action comment"
+    },
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "addEngagementAction": {
+    "userIdRequired": "Потрібен ідентифікатор користувача",
+    "_userIdRequired.comment": "User ID is required error message",
+    "requestNotFound": "Запит не знайдено",
+    "_requestNotFound.comment": "Request not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "resetUserPassword": {
+    "emailNotConfigured": "Не вдається скинути пароль користувача та надіслати пошту. Будь ласка, повідомте свого адміністратора.",
+    "_emailNotConfigured.comment": "Error message to inform that account password cannot be reset and unable to send it via email",
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "emailSubject": "Скидання пароля",
+    "_emailSubject.comment": "Email subject content",
+    "emailBody": "Ваш пароль скинуто. Будь ласка, використовуйте наступний пароль для входу: [[password]]",
+    "_emailBody.comment": "Email body content, Don't translate [[password]], {Placeholder=[,]}",
+    "emailHTML": {
+      "header": "Resolve",
+      "_header.comment": "Header title for html email",
+      "subHeader": "Інструмент для підтримки здоров’я громади",
+      "_subHeader.comment": "Sub-header for the html email",
+      "body": "Ваш пароль скинуто.<br/>Будь ласка, використовуйте наведений нижче пароль, щоб увійти до свого облікового запису.",
+      "_body.comment": "html body content of the email",
+      "reminder": "Після того, як ви ввійшли в систему, не забудьте змінити свій пароль.<br/>Ви можете змінити цей тимчасовий пароль, перейшовши на сторінку свого профілю.",
+      "_reminder.comment": "html reminder content of the email",
+      "doNotReply": "Це автоматичний електронний лист, не відповідайте на це повідомлення. Це повідомлення призначене лише для призначеного одержувача. Якщо ви отримали його помилково, будь ласка, видаліть. Будь-яке інше використання листа заборонено.",
+      "_doNotReply.comment": "html do not reply content of the email",
+      "footers": {
+        "sendFeedback": "Надішліть нам відгук!",
+        "_sendFeedback.comment": "Send feedback label",
+        "privacyCookies": "Конфіденційність і файли Cookies",
+        "_privacyCookies.comment": "Privacy and cookies label",
+        "tradeMarks": "Торгові марки",
+        "_tradeMarks.comment": "Trademarks label",
+        "termsOfUse": "Умови користування",
+        "_termsOfUse.comment": "Terms of use label",
+        "contactUs": "Зв'яжіться з нами",
+        "_contactUs.comment": "Contact us label",
+        "codeOfConduct": "Норми поведінки",
+        "_codeOfConduct.comment": "Code of conduct label"
+      }
+    },
+    "resetError": "Error resetting password",
+    "_resetError.comment": "Password reset error message",
+    "success": "Success",
+    "_success.comment": "Success message"
+  },
+  "forgotUserPassword": {
+    "emailNotConfigured": "Не вдається скинути пароль користувача та надіслати пошту. Будь ласка, повідомте свого адміністратора.",
+    "_emailNotConfigured.comment": "Error message to inform that account password cannot be reset and unable to send it via email",
+    "couldNotIssueToken": "Не вдається створити маркер, необхідний для скидання пароля. Будь ласка, повідомте свого адміністратора.",
+    "_couldNotIssueToken.comment": "Unable to reset user password (could not generate token). Please inform your administrator.",
+    "userNotFound": "Користувач не знайдений або не існує в наших записах",
+    "_userNotFound.comment": "User not found error message",
+    "emailSubject": "Скидання пароля",
+    "_emailSubject.comment": "Email subject content",
+    "emailBody": "Ваш пароль скинуто. Будь ласка, використовуйте наступний пароль для входу: [[password]]",
+    "_emailBody.comment": "Email body content, Don't translate [[password]], {Placeholder=[,]}",
+    "invalidToken": "Не вдається скинути пароль. Токен недійсний. Будь ласка, повідомте свого адміністратора.",
+    "_invalidToken.comment": "error message for when user token is invalid",
+    "emailHTML": {
+      "header": "Resolve",
+      "_header.comment": "Header title for html email",
+      "subHeader": "Інструмент для підтримки здоров’я громади",
+      "_subHeader.comment": "Sub-header for the html email",
+      "body": "Ми отримали запит на скидання пароля для вашого облікового запису.<br/>Якщо це правда, натисніть нижче, щоб скинути пароль.",
+      "_body.comment": "html body content of the email",
+      "reminder": "Якщо ви не забули свій пароль, можете ігнорувати цей лист.",
+      "_reminder.comment": "html reminder content of the email",
+      "doNotReply": "Це автоматичний електронний лист, не відповідайте на це повідомлення. Це повідомлення призначене лише для призначеного одержувача. Якщо ви отримали його помилково, будь ласка, видаліть. Будь-яке інше використання листа заборонено.",
+      "_doNotReply.comment": "html do not reply content of the email",
+      "clickHere": "Скинути мій пароль",
+      "_clickHere.comment": "Reset password link",
+      "footers": {
+        "sendFeedback": "Надішліть нам відгук!",
+        "_sendFeedback.comment": "Send feedback label",
+        "privacyCookies": "Конфіденційність і файли Cookies",
+        "_privacyCookies.comment": "Privacy and cookies label",
+        "tradeMarks": "Торгові марки",
+        "_tradeMarks.comment": "Trademarks label",
+        "termsOfUse": "Умови користування",
+        "_termsOfUse.comment": "Terms of use label",
+        "contactUs": "Зв'яжіться з нами",
+        "_contactUs.comment": "Contact us label",
+        "codeOfConduct": "Норми поведінки",
+        "_codeOfConduct.comment": "Code of conduct label"
+      }
+    },
+    "resetError": "Помилка скидання пароля",
+    "_resetError.comment": "Password reset error message",
+    "success": "Успіх",
+    "_success.comment": "Success message",
+    "invalidTokenExpired": "Термін дії маркера скидання пароля закінчився або він недійсний. Будь ласка спробуйте ще раз.",
+    "_invalidTokenExpired.comment": "Password token expired error message"
+  },
+  "setUserPassword": {
+    "notLoggedIn": "Користувач не ввійшов у систему",
+    "_notLoggedIn.comment": "The user must be logged in so that they can reset their password",
+    "invalidPassword": "Поточний пароль недійсний",
+    "_invalidPassword.comment": "Current password is invalid error message",
+    "resetError": "Помилка скидання пароля",
+    "_resetError.comment": "Password reset error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "createNewUser": {
+    "emailNotConfigured": "Неможливо створити обліковий запис і надіслати пошту. Будь ласка, повідомте свого адміністратора.",
+    "_emailNotConfigured.comment": "Error message to inform that account is cannot be created and unable to send it via email",
+    "emailExist": "E-mail вже існує",
+    "_emailExist.comment": "Email already exist error message",
+    "emailSubject": "Обліковий запис створено",
+    "_emailSubject.comment": "Email subject content",
+    "emailBody": "Ваш обліковий запис створено. Будь ласка, використовуйте цю адресу електронної пошти та такий пароль для входу: [[password]]",
+    "_emailBody.comment": "Email body content, Don't translate [[password]], {Placeholder=[,]}",
+    "emailHTML": {
+      "header": "Resolve",
+      "_header.comment": "Header title for html email",
+      "subHeader": "Інструмент для підтримки здоров’я громади",
+      "_subHeader.comment": "Sub-header for the html email",
+      "body": "Ваш обліковий запис створено.<br/>Використовуйте наведений нижче пароль, щоб увійти до свого облікового запису.",
+      "_body.comment": "html body content of the email",
+      "reminder": "Увійшовши в систему, не забудьте змінити свій пароль.<br/>Ви можете змінити цей тимчасовий пароль, перейшовши на сторінку свого профілю.",
+      "_reminder.comment": "html reminder content of the email",
+      "doNotReply": "Це автоматичний електронний лист, не відповідайте на це повідомлення. Це повідомлення призначене лише для призначеного одержувача. Якщо ви отримали його помилково, будь ласка, видаліть. Будь-яке інше використання листа заборонено.",
+      "_doNotReply.comment": "html do not reply content of the email",
+      "clickHere": "Увійти",
+      "_clickHere.comment": "Link to login page",
+      "footers": {
+        "sendFeedback": "Надішліть нам відгук!",
+        "_sendFeedback.comment": "Send feedback label",
+        "privacyCookies": "Конфіденційність і файли Cookies",
+        "_privacyCookies.comment": "Privacy and cookies label",
+        "tradeMarks": "Торгові марки",
+        "_tradeMarks.comment": "Trademarks label",
+        "termsOfUse": "Умови користування",
+        "_termsOfUse.comment": "Terms of use label",
+        "contactUs": "Зв'яжіться з нами",
+        "_contactUs.comment": "Contact us label",
+        "codeOfConduct": "Норми поведінки",
+        "_codeOfConduct.comment": "Code of conduct label"
+      }
+    },
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateUser": {
+    "userIdRequired": "Потрібен ідентифікатор користувача",
+    "_userIdRequired.comment": "User ID is required error message",
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "emailExist": "E-mail вже існує",
+    "_emailExist.comment": "Email already exist error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "deleteUser": {
+    "fail": "Не вдалося видалити користувача",
+    "_fail.comment": "Failure message for deleting a user",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateUserFCMToken": {
+    "userFCMTokenFailed": "Помилка FCM маркер користувача",
+    "_userFCMTokenFailed.comment": "User FCM Token Failed error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "markMentionSeen": {
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "markMentionDismissed": {
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "createNewTag": {
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateTag": {
+    "tagIdRequired": "Необхідний ідентифікатор мітки",
+    "_tagIdRequired.comment": "Tag Id is required error message",
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "success": "Успіх",
+    "_success.comment": "Success message",
+    "failed": "Не вдалося оновити мітку",
+    "_failed.comment": "failure message message"
+  },
+  "createContact": {
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateContact": {
+    "contactIdRequired": "Потрібний ідентифікатор контакту",
+    "_contactIdRequired.comment": "Contact Id is required error message",
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "userNotFound": "Користувач не знайдений",
+    "_userNotFound.comment": "User not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "archiveContact": {
+    "success": "Контакт заархівовано",
+    "_success.comment": "Success message",
+    "fail": "Не вдалося заархівувати контакт",
+    "_fail.comment": "Failure message"
+  },
+  "createService": {
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "updateService": {
+    "serviceIdRequired": "Потрібний ідентифікатор сервісу",
+    "_serviceIdRequired.comment": "Service Id is required error message",
+    "orgIdRequired": "Необхідний ідентифікатор організації",
+    "_orgIdRequired.comment": "OrganizationID is required error message",
+    "serviceNotFound": "Сервіс не знайдено",
+    "_serviceNotFound.comment": "Service not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "createServiceAnswers": {
+    "serviceIdRequired": "Потрібний ідентифікатор сервісу",
+    "_serviceIdRequired.comment": "Service Id is required error message",
+    "serviceNotFound": "Сервіс не знайдено",
+    "_serviceNotFound.comment": "Service not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "deleteServiceAnswer": {
+    "serviceIdRequired": "Потрібний ідентифікатор сервісу",
+    "_serviceIdRequired.comment": "Service Id is required error message",
+    "answerIdRequired": "Необхідний ідентифікатор відповіді",
+    "_answerIdRequired.comment": "Answer Id is required error message",
+    "serviceNotFound": "Сервіс не знайдено",
+    "_serviceNotFound.comment": "Service not found error message",
+    "success": "Success",
+    "_success.comment": "Success message"
+  },
+  "updateServiceAnswer": {
+    "serviceIdRequired": "Service Id is required",
+    "_serviceIdRequired.comment": "Service Id is required error message",
+    "answerIdRequired": "Необхідний ідентифікатор відповіді",
+    "_answerIdRequired.comment": "Answer Id is required error message",
+    "serviceAnswerNotFound": "Відповідь служби не знайдено",
+    "_serviceAnswerNotFound.comment": "Service answer not found error message",
+    "serviceNotFound": "Сервіс не знайдено",
+    "_serviceNotFound.comment": "Service not found error message",
+    "success": "Успіх",
+    "_success.comment": "Success message"
+  },
+  "notifier": {
+    "assignedRequestTitle": "Клієнту потрібна ваша допомога!",
+    "_assignedRequestTitle.comment": "Notification title when a user is being assigned a client",
+    "assignedRequestBody": "Перейти на інформаційну панель, щоб переглянути запит",
+    "_assignedRequestBody.comment": "Notification body when a user is being assigned a client"
+  }
+}
